@@ -23,6 +23,7 @@ class StringCalculator {
 	}
 
 	private static String[] splitNumbers(String numbers, String divider){
+		//System.out.println(divider);
 	    return numbers.split(divider);
 	}
 
